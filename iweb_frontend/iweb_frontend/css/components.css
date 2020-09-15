@@ -1,0 +1,19 @@
+.topbar{
+	background: #f9f9f9;
+	border-bottom: 1px solid #eee;
+	line-height: 36px;
+}
+.navbar{
+	background: #00be56;
+	border-bottom: 3px solid #b3efc0;
+	height: 52px;
+}
+.carouselbar{
+	border-bottom: 4px solid #ddd;
+	}
+.mainbar{
+	border-bottom: 1px solid #ddd;
+}
+.bottombar>.container>.row:first-child{
+	border-bottom: 1px solid #ddd;
+}
