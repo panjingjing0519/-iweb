@@ -356,3 +356,43 @@
 .breadcrumb ul li a {
 	color: #999;
 }
+.pager {
+	padding: 3em 0;
+}
+.pager ul {
+	text-align: center;
+}
+.pager ul li {
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 0.3em   0.7em;
+	cursor: pointer;  /* 鼠标在悬停在li上方时,光标变为小手 */
+}
+.pager ul li.active {
+	background: #99d989;
+	border: 1px solid #99d989;
+	cursor: default;
+}
+.pager ul li disabled{
+	background: #f4f4f4;
+	
+}
+.pager ul li a {
+	color: #999;
+}
+.pager ul li.active a {
+	color: #fff;
+	cursor: default;
+}
+.pager ul li.disabled a {
+	color: #ddd;
+	cursor: default;
+}
+
+
+/* 当鼠标悬停于非.active项/非.disabled项上方时,边框变色 */
+
+.pager  ul  li:not(.active):hover,
+.pager  ul  li:not(.disabled):hover{
+	
+}
